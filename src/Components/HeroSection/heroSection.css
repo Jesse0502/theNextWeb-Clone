@@ -1,0 +1,14 @@
+.heroImageHover {
+  border-radius: 15px;
+  display: block;
+  position: relative;
+  transition: ease-in;
+  transition-duration: 0.1s;
+  overflow: hidden;
+}
+.heroImageHover:hover {
+  transition: ease-out;
+  transition-duration: 0.2s;
+  overflow: hidden;
+  cursor: pointer;
+}
